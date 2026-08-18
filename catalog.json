@@ -1,0 +1,1526 @@
+{
+  "generated_at": "2026-08-18",
+  "windows": [
+    {
+      "name": "Windows 11",
+      "slug": "windows11",
+      "releases": [
+        {
+          "release": "25H2 v2 (Build 26200.8037 - 2026.03)",
+          "editions": [
+            {
+              "name": "Windows 11 Home/Pro/Edu",
+              "types": [
+                "desktop"
+              ],
+              "product_edition_id": [
+                3321,
+                3324
+              ]
+            },
+            {
+              "name": "Windows 11 Home China",
+              "types": [
+                "home-china"
+              ],
+              "product_edition_id": [
+                3322,
+                3325
+              ]
+            },
+            {
+              "name": "Windows 11 Pro China",
+              "types": [
+                "pro-china"
+              ],
+              "product_edition_id": [
+                3323,
+                3326
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Windows 10",
+      "slug": "windows10",
+      "releases": [
+        {
+          "release": "22H2 v1 (Build 19045.2965 - 2023.05)",
+          "editions": [
+            {
+              "name": "Windows 10 Home/Pro/Edu",
+              "types": [
+                "desktop"
+              ],
+              "product_edition_id": [
+                2618
+              ]
+            },
+            {
+              "name": "Windows 10 Home China",
+              "types": [
+                "home-china"
+              ],
+              "product_edition_id": [
+                2378
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "linux": [
+    {
+      "name": "Ubuntu",
+      "slug": "ubuntu",
+      "resolver": "template",
+      "url_template": "https://releases.ubuntu.com/{version}/ubuntu-{version}-desktop-{arch}.iso",
+      "page_url": null,
+      "arch": [
+        "amd64",
+        "arm64"
+      ],
+      "cycles": [
+        {
+          "cycle": "26.04",
+          "latest": "26.04",
+          "lts": true,
+          "release_date": "2026-04-23",
+          "eol": "2031-04-30"
+        },
+        {
+          "cycle": "25.10",
+          "latest": "25.10",
+          "lts": false,
+          "release_date": "2025-10-09",
+          "eol": "2026-07-01"
+        },
+        {
+          "cycle": "25.04",
+          "latest": "25.04",
+          "lts": false,
+          "release_date": "2025-04-17",
+          "eol": "2026-01-17"
+        },
+        {
+          "cycle": "24.10",
+          "latest": "24.10",
+          "lts": false,
+          "release_date": "2024-10-10",
+          "eol": "2025-07-10"
+        },
+        {
+          "cycle": "24.04",
+          "latest": "24.04.4",
+          "lts": true,
+          "release_date": "2024-04-25",
+          "eol": "2029-05-31"
+        },
+        {
+          "cycle": "23.10",
+          "latest": "23.10",
+          "lts": false,
+          "release_date": "2023-10-12",
+          "eol": "2024-07-12"
+        },
+        {
+          "cycle": "23.04",
+          "latest": "23.04",
+          "lts": false,
+          "release_date": "2023-04-20",
+          "eol": "2024-01-20"
+        },
+        {
+          "cycle": "22.10",
+          "latest": "22.10",
+          "lts": false,
+          "release_date": "2022-10-20",
+          "eol": "2023-07-20"
+        },
+        {
+          "cycle": "22.04",
+          "latest": "22.04.5",
+          "lts": true,
+          "release_date": "2022-04-21",
+          "eol": "2027-04-01"
+        },
+        {
+          "cycle": "21.10",
+          "latest": "21.10",
+          "lts": false,
+          "release_date": "2021-10-14",
+          "eol": "2022-07-14"
+        },
+        {
+          "cycle": "21.04",
+          "latest": "21.04",
+          "lts": false,
+          "release_date": "2021-04-22",
+          "eol": "2022-01-20"
+        },
+        {
+          "cycle": "20.10",
+          "latest": "20.10",
+          "lts": false,
+          "release_date": "2020-10-22",
+          "eol": "2021-07-22"
+        },
+        {
+          "cycle": "20.04",
+          "latest": "20.04.6",
+          "lts": true,
+          "release_date": "2020-04-23",
+          "eol": "2025-05-31"
+        },
+        {
+          "cycle": "19.10",
+          "latest": "19.10",
+          "lts": false,
+          "release_date": "2019-10-17",
+          "eol": "2020-07-06"
+        },
+        {
+          "cycle": "19.04",
+          "latest": "19.04",
+          "lts": false,
+          "release_date": "2019-04-18",
+          "eol": "2020-01-23"
+        },
+        {
+          "cycle": "18.10",
+          "latest": "18.10",
+          "lts": false,
+          "release_date": "2018-10-18",
+          "eol": "2019-07-18"
+        },
+        {
+          "cycle": "18.04",
+          "latest": "18.04.6",
+          "lts": true,
+          "release_date": "2018-04-26",
+          "eol": "2023-05-31"
+        },
+        {
+          "cycle": "17.10",
+          "latest": "17.10",
+          "lts": false,
+          "release_date": "2017-10-19",
+          "eol": "2018-07-19"
+        },
+        {
+          "cycle": "17.04",
+          "latest": "17.04",
+          "lts": false,
+          "release_date": "2017-04-13",
+          "eol": "2018-01-13"
+        },
+        {
+          "cycle": "16.10",
+          "latest": "16.10",
+          "lts": false,
+          "release_date": "2016-10-13",
+          "eol": "2017-07-20"
+        },
+        {
+          "cycle": "16.04",
+          "latest": "16.04.7",
+          "lts": true,
+          "release_date": "2016-04-21",
+          "eol": "2021-04-02"
+        },
+        {
+          "cycle": "15.10",
+          "latest": "15.10",
+          "lts": false,
+          "release_date": "2015-10-22",
+          "eol": "2016-07-28"
+        },
+        {
+          "cycle": "15.04",
+          "latest": "15.04",
+          "lts": false,
+          "release_date": "2015-04-23",
+          "eol": "2016-02-04"
+        },
+        {
+          "cycle": "14.10",
+          "latest": "14.10",
+          "lts": false,
+          "release_date": "2014-10-23",
+          "eol": "2015-07-23"
+        },
+        {
+          "cycle": "14.04",
+          "latest": "14.04.6",
+          "lts": true,
+          "release_date": "2014-04-17",
+          "eol": "2019-04-02"
+        },
+        {
+          "cycle": "13.10",
+          "latest": "13.10",
+          "lts": false,
+          "release_date": "2013-10-17",
+          "eol": "2014-07-17"
+        },
+        {
+          "cycle": "13.04",
+          "latest": "13.04",
+          "lts": false,
+          "release_date": "2013-04-25",
+          "eol": "2014-01-27"
+        },
+        {
+          "cycle": "12.10",
+          "latest": "12.10",
+          "lts": false,
+          "release_date": "2012-10-18",
+          "eol": "2014-05-16"
+        },
+        {
+          "cycle": "12.04",
+          "latest": "12.04.5",
+          "lts": true,
+          "release_date": "2012-04-26",
+          "eol": "2017-04-28"
+        },
+        {
+          "cycle": "11.10",
+          "latest": "11.10",
+          "lts": false,
+          "release_date": "2011-10-13",
+          "eol": "2013-05-09"
+        },
+        {
+          "cycle": "11.04",
+          "latest": "11.04",
+          "lts": false,
+          "release_date": "2011-04-28",
+          "eol": "2012-10-28"
+        },
+        {
+          "cycle": "10.10",
+          "latest": "10.10",
+          "lts": false,
+          "release_date": "2010-10-10",
+          "eol": "2012-04-10"
+        },
+        {
+          "cycle": "10.04",
+          "latest": "10.04.4",
+          "lts": true,
+          "release_date": "2010-04-29",
+          "eol": "2013-05-09"
+        },
+        {
+          "cycle": "9.10",
+          "latest": "9.10",
+          "lts": false,
+          "release_date": "2009-10-29",
+          "eol": "2011-04-30"
+        },
+        {
+          "cycle": "9.04",
+          "latest": "9.04",
+          "lts": false,
+          "release_date": "2009-04-23",
+          "eol": "2010-10-23"
+        },
+        {
+          "cycle": "8.10",
+          "latest": "8.10",
+          "lts": false,
+          "release_date": "2008-10-30",
+          "eol": "2010-04-30"
+        },
+        {
+          "cycle": "8.04",
+          "latest": "8.04.4",
+          "lts": true,
+          "release_date": "2008-04-24",
+          "eol": "2013-05-09"
+        },
+        {
+          "cycle": "7.10",
+          "latest": "7.10",
+          "lts": false,
+          "release_date": "2007-10-18",
+          "eol": "2009-04-18"
+        },
+        {
+          "cycle": "7.04",
+          "latest": "7.04",
+          "lts": false,
+          "release_date": "2007-04-19",
+          "eol": "2008-10-19"
+        },
+        {
+          "cycle": "6.10",
+          "latest": "6.10",
+          "lts": false,
+          "release_date": "2006-10-26",
+          "eol": "2008-04-26"
+        },
+        {
+          "cycle": "6.06",
+          "latest": "6.06.2",
+          "lts": true,
+          "release_date": "2006-08-10",
+          "eol": "2011-06-01"
+        },
+        {
+          "cycle": "5.10",
+          "latest": "5.10",
+          "lts": false,
+          "release_date": "2005-10-13",
+          "eol": "2007-04-13"
+        },
+        {
+          "cycle": "5.04",
+          "latest": "5.04",
+          "lts": false,
+          "release_date": "2005-04-08",
+          "eol": "2006-10-31"
+        },
+        {
+          "cycle": "4.10",
+          "latest": "4.10",
+          "lts": false,
+          "release_date": "2004-10-20",
+          "eol": "2006-04-30"
+        }
+      ]
+    },
+    {
+      "name": "Debian",
+      "slug": "debian",
+      "resolver": "template",
+      "url_template": "https://cdimage.debian.org/debian-cd/current/{arch}/iso-cd/debian-{version}-{arch}-netinst.iso",
+      "page_url": null,
+      "arch": [
+        "amd64",
+        "arm64"
+      ],
+      "cycles": [
+        {
+          "cycle": "13",
+          "latest": "13.6",
+          "lts": false,
+          "release_date": "2025-08-09",
+          "eol": "2028-08-09"
+        },
+        {
+          "cycle": "12",
+          "latest": "12.15",
+          "lts": false,
+          "release_date": "2023-06-10",
+          "eol": "2026-07-11"
+        },
+        {
+          "cycle": "11",
+          "latest": "11.11",
+          "lts": false,
+          "release_date": "2021-08-14",
+          "eol": "2024-08-14"
+        },
+        {
+          "cycle": "10",
+          "latest": "10.13",
+          "lts": false,
+          "release_date": "2019-07-06",
+          "eol": "2022-09-10"
+        },
+        {
+          "cycle": "9",
+          "latest": "9.13",
+          "lts": false,
+          "release_date": "2017-06-17",
+          "eol": "2020-07-18"
+        },
+        {
+          "cycle": "8",
+          "latest": "8.11",
+          "lts": false,
+          "release_date": "2015-04-25",
+          "eol": "2018-06-17"
+        },
+        {
+          "cycle": "7",
+          "latest": "7.11",
+          "lts": false,
+          "release_date": "2013-05-04",
+          "eol": "2016-04-25"
+        },
+        {
+          "cycle": "6",
+          "latest": "6.0.10",
+          "lts": false,
+          "release_date": "2011-02-06",
+          "eol": "2014-05-31"
+        },
+        {
+          "cycle": "5",
+          "latest": "5.0.10",
+          "lts": false,
+          "release_date": "2009-02-14",
+          "eol": "2012-02-06"
+        },
+        {
+          "cycle": "4",
+          "latest": "4.0r9",
+          "lts": false,
+          "release_date": "2007-04-08",
+          "eol": "2010-02-15"
+        },
+        {
+          "cycle": "3.1",
+          "latest": "3.1r8",
+          "lts": false,
+          "release_date": "2005-06-06",
+          "eol": "2008-03-31"
+        },
+        {
+          "cycle": "3.0",
+          "latest": "3.0r6",
+          "lts": false,
+          "release_date": "2002-07-19",
+          "eol": "2006-06-30"
+        },
+        {
+          "cycle": "2.2",
+          "latest": "2.2r7",
+          "lts": false,
+          "release_date": "2000-08-15",
+          "eol": "2003-06-30"
+        },
+        {
+          "cycle": "2.1",
+          "latest": "2.1r5",
+          "lts": false,
+          "release_date": "1999-03-09",
+          "eol": "2000-09-30"
+        },
+        {
+          "cycle": "2.0",
+          "latest": "2.0r5",
+          "lts": false,
+          "release_date": "1998-07-24",
+          "eol": "1999-02-15"
+        },
+        {
+          "cycle": "1.3",
+          "latest": "1.3.1 r.6",
+          "lts": false,
+          "release_date": "1997-07-02",
+          "eol": "1998-12-08"
+        },
+        {
+          "cycle": "1.2",
+          "latest": "1.2",
+          "lts": false,
+          "release_date": "1996-12-12",
+          "eol": "1997-10-23"
+        },
+        {
+          "cycle": "1.1",
+          "latest": "1.1",
+          "lts": false,
+          "release_date": "1996-06-17",
+          "eol": "1996-12-12"
+        }
+      ]
+    },
+    {
+      "name": "Fedora",
+      "slug": "fedora",
+      "resolver": "template",
+      "url_template": "https://download.fedoraproject.org/pub/fedora/linux/releases/{cycle}/Workstation/{arch}/iso/Fedora-Workstation-Live-{cycle}-{arch}.iso",
+      "page_url": null,
+      "arch": [
+        "x86_64",
+        "aarch64"
+      ],
+      "cycles": [
+        {
+          "cycle": "44",
+          "latest": "44",
+          "lts": false,
+          "release_date": "2026-04-28",
+          "eol": "2027-06-02"
+        },
+        {
+          "cycle": "43",
+          "latest": "43",
+          "lts": false,
+          "release_date": "2025-10-28",
+          "eol": "2026-12-09"
+        },
+        {
+          "cycle": "42",
+          "latest": "42",
+          "lts": false,
+          "release_date": "2025-04-15",
+          "eol": "2026-05-27"
+        },
+        {
+          "cycle": "41",
+          "latest": "41",
+          "lts": false,
+          "release_date": "2024-10-29",
+          "eol": "2025-12-15"
+        },
+        {
+          "cycle": "40",
+          "latest": "40",
+          "lts": false,
+          "release_date": "2024-04-23",
+          "eol": "2025-05-13"
+        },
+        {
+          "cycle": "39",
+          "latest": "39",
+          "lts": false,
+          "release_date": "2023-11-07",
+          "eol": "2024-11-26"
+        },
+        {
+          "cycle": "38",
+          "latest": "38",
+          "lts": false,
+          "release_date": "2023-04-18",
+          "eol": "2024-05-21"
+        },
+        {
+          "cycle": "37",
+          "latest": "37",
+          "lts": false,
+          "release_date": "2022-11-15",
+          "eol": "2023-12-05"
+        },
+        {
+          "cycle": "36",
+          "latest": "36",
+          "lts": false,
+          "release_date": "2022-05-10",
+          "eol": "2023-05-16"
+        },
+        {
+          "cycle": "35",
+          "latest": "35",
+          "lts": false,
+          "release_date": "2021-11-02",
+          "eol": "2022-12-13"
+        },
+        {
+          "cycle": "34",
+          "latest": "34",
+          "lts": false,
+          "release_date": "2021-04-27",
+          "eol": "2022-06-07"
+        },
+        {
+          "cycle": "33",
+          "latest": "33",
+          "lts": false,
+          "release_date": "2020-10-27",
+          "eol": "2021-11-30"
+        },
+        {
+          "cycle": "32",
+          "latest": "32",
+          "lts": false,
+          "release_date": "2020-04-28",
+          "eol": "2021-05-25"
+        },
+        {
+          "cycle": "31",
+          "latest": "31",
+          "lts": false,
+          "release_date": "2019-10-29",
+          "eol": "2020-11-24"
+        },
+        {
+          "cycle": "30",
+          "latest": "30",
+          "lts": false,
+          "release_date": "2019-04-30",
+          "eol": "2020-05-26"
+        },
+        {
+          "cycle": "29",
+          "latest": "29",
+          "lts": false,
+          "release_date": "2018-10-30",
+          "eol": "2019-11-26"
+        },
+        {
+          "cycle": "28",
+          "latest": "28",
+          "lts": false,
+          "release_date": "2018-05-01",
+          "eol": "2019-05-28"
+        },
+        {
+          "cycle": "27",
+          "latest": "27",
+          "lts": false,
+          "release_date": "2017-11-14",
+          "eol": "2018-11-30"
+        },
+        {
+          "cycle": "26",
+          "latest": "26",
+          "lts": false,
+          "release_date": "2017-07-11",
+          "eol": "2018-05-29"
+        },
+        {
+          "cycle": "25",
+          "latest": "25",
+          "lts": false,
+          "release_date": "2016-11-22",
+          "eol": "2017-12-12"
+        },
+        {
+          "cycle": "24",
+          "latest": "24",
+          "lts": false,
+          "release_date": "2016-06-21",
+          "eol": "2017-08-08"
+        },
+        {
+          "cycle": "23",
+          "latest": "23",
+          "lts": false,
+          "release_date": "2015-11-03",
+          "eol": "2016-12-20"
+        },
+        {
+          "cycle": "22",
+          "latest": "22",
+          "lts": false,
+          "release_date": "2015-05-26",
+          "eol": "2016-07-19"
+        },
+        {
+          "cycle": "21",
+          "latest": "21",
+          "lts": false,
+          "release_date": "2014-12-09",
+          "eol": "2015-12-01"
+        },
+        {
+          "cycle": "20",
+          "latest": "20",
+          "lts": false,
+          "release_date": "2013-12-17",
+          "eol": "2015-06-23"
+        },
+        {
+          "cycle": "19",
+          "latest": "19",
+          "lts": false,
+          "release_date": "2013-07-02",
+          "eol": "2015-01-06"
+        },
+        {
+          "cycle": "18",
+          "latest": "18",
+          "lts": false,
+          "release_date": "2013-01-15",
+          "eol": "2014-01-14"
+        },
+        {
+          "cycle": "17",
+          "latest": "17",
+          "lts": false,
+          "release_date": "2012-05-29",
+          "eol": "2013-07-30"
+        },
+        {
+          "cycle": "16",
+          "latest": "16",
+          "lts": false,
+          "release_date": "2011-11-08",
+          "eol": "2013-02-12"
+        },
+        {
+          "cycle": "15",
+          "latest": "15",
+          "lts": false,
+          "release_date": "2011-05-24",
+          "eol": "2012-06-26"
+        },
+        {
+          "cycle": "14",
+          "latest": "14",
+          "lts": false,
+          "release_date": "2010-11-02",
+          "eol": "2011-12-09"
+        },
+        {
+          "cycle": "13",
+          "latest": "13",
+          "lts": false,
+          "release_date": "2010-05-25",
+          "eol": "2011-06-24"
+        },
+        {
+          "cycle": "12",
+          "latest": "12",
+          "lts": false,
+          "release_date": "2009-11-17",
+          "eol": "2010-12-02"
+        },
+        {
+          "cycle": "11",
+          "latest": "11",
+          "lts": false,
+          "release_date": "2009-06-09",
+          "eol": "2010-06-25"
+        },
+        {
+          "cycle": "10",
+          "latest": "10",
+          "lts": false,
+          "release_date": "2008-11-25",
+          "eol": "2009-12-17"
+        },
+        {
+          "cycle": "9",
+          "latest": "9",
+          "lts": false,
+          "release_date": "2008-05-13",
+          "eol": "2009-07-10"
+        },
+        {
+          "cycle": "8",
+          "latest": "8",
+          "lts": false,
+          "release_date": "2007-11-08",
+          "eol": "2009-01-07"
+        },
+        {
+          "cycle": "7",
+          "latest": "7",
+          "lts": false,
+          "release_date": "2007-05-31",
+          "eol": "2008-06-13"
+        },
+        {
+          "cycle": "6",
+          "latest": "6",
+          "lts": false,
+          "release_date": "2006-10-24",
+          "eol": "2007-12-07"
+        },
+        {
+          "cycle": "5",
+          "latest": "5",
+          "lts": false,
+          "release_date": "2006-03-20",
+          "eol": "2007-07-02"
+        },
+        {
+          "cycle": "4",
+          "latest": "4",
+          "lts": false,
+          "release_date": "2005-06-13",
+          "eol": "2006-08-07"
+        },
+        {
+          "cycle": "3",
+          "latest": "3",
+          "lts": false,
+          "release_date": "2004-11-08",
+          "eol": "2006-01-16"
+        },
+        {
+          "cycle": "2",
+          "latest": "2",
+          "lts": false,
+          "release_date": "2004-05-18",
+          "eol": "2005-04-11"
+        },
+        {
+          "cycle": "1",
+          "latest": "1",
+          "lts": false,
+          "release_date": "2003-11-05",
+          "eol": "2004-09-20"
+        }
+      ]
+    },
+    {
+      "name": "Alpine Linux",
+      "slug": "alpine-linux",
+      "resolver": "template",
+      "url_template": "https://dl-cdn.alpinelinux.org/alpine/v{cycle}/releases/{arch}/alpine-{version}-{arch}.iso",
+      "page_url": null,
+      "arch": [
+        "x86_64",
+        "aarch64"
+      ],
+      "cycles": [
+        {
+          "cycle": "3.24",
+          "latest": "3.24.1",
+          "lts": false,
+          "release_date": "2026-06-09",
+          "eol": "2028-06-01"
+        },
+        {
+          "cycle": "3.23",
+          "latest": "3.23.5",
+          "lts": false,
+          "release_date": "2025-12-04",
+          "eol": "2027-11-01"
+        },
+        {
+          "cycle": "3.22",
+          "latest": "3.22.5",
+          "lts": false,
+          "release_date": "2025-05-30",
+          "eol": "2027-05-01"
+        },
+        {
+          "cycle": "3.21",
+          "latest": "3.21.7",
+          "lts": false,
+          "release_date": "2024-12-05",
+          "eol": "2026-11-01"
+        },
+        {
+          "cycle": "3.20",
+          "latest": "3.20.10",
+          "lts": false,
+          "release_date": "2024-05-22",
+          "eol": "2026-04-01"
+        },
+        {
+          "cycle": "3.19",
+          "latest": "3.19.9",
+          "lts": false,
+          "release_date": "2023-12-07",
+          "eol": "2025-11-01"
+        },
+        {
+          "cycle": "3.18",
+          "latest": "3.18.12",
+          "lts": false,
+          "release_date": "2023-05-09",
+          "eol": "2025-05-09"
+        },
+        {
+          "cycle": "3.17",
+          "latest": "3.17.10",
+          "lts": false,
+          "release_date": "2022-11-22",
+          "eol": "2024-11-22"
+        },
+        {
+          "cycle": "3.16",
+          "latest": "3.16.9",
+          "lts": false,
+          "release_date": "2022-05-23",
+          "eol": "2024-05-23"
+        },
+        {
+          "cycle": "3.15",
+          "latest": "3.15.11",
+          "lts": false,
+          "release_date": "2021-11-24",
+          "eol": "2023-11-01"
+        },
+        {
+          "cycle": "3.14",
+          "latest": "3.14.10",
+          "lts": false,
+          "release_date": "2021-06-15",
+          "eol": "2023-05-01"
+        },
+        {
+          "cycle": "3.13",
+          "latest": "3.13.12",
+          "lts": false,
+          "release_date": "2021-01-14",
+          "eol": "2022-11-01"
+        },
+        {
+          "cycle": "3.12",
+          "latest": "3.12.12",
+          "lts": false,
+          "release_date": "2020-05-29",
+          "eol": "2022-05-01"
+        },
+        {
+          "cycle": "3.11",
+          "latest": "3.11.13",
+          "lts": false,
+          "release_date": "2019-12-19",
+          "eol": "2021-11-01"
+        },
+        {
+          "cycle": "3.10",
+          "latest": "3.10.9",
+          "lts": false,
+          "release_date": "2019-06-19",
+          "eol": "2021-05-01"
+        },
+        {
+          "cycle": "3.9",
+          "latest": "3.9.6",
+          "lts": false,
+          "release_date": "2019-01-29",
+          "eol": "2020-11-01"
+        },
+        {
+          "cycle": "3.8",
+          "latest": "3.8.5",
+          "lts": false,
+          "release_date": "2018-06-26",
+          "eol": "2020-05-01"
+        },
+        {
+          "cycle": "3.7",
+          "latest": "3.7.3",
+          "lts": false,
+          "release_date": "2017-11-30",
+          "eol": "2019-11-01"
+        },
+        {
+          "cycle": "3.6",
+          "latest": "3.6.5",
+          "lts": false,
+          "release_date": "2017-05-24",
+          "eol": "2019-05-01"
+        },
+        {
+          "cycle": "3.5",
+          "latest": "3.5.3",
+          "lts": false,
+          "release_date": "2016-12-22",
+          "eol": "2018-11-01"
+        },
+        {
+          "cycle": "3.4",
+          "latest": "3.4.6",
+          "lts": false,
+          "release_date": "2016-05-31",
+          "eol": "2018-05-01"
+        },
+        {
+          "cycle": "3.3",
+          "latest": "3.3.3",
+          "lts": false,
+          "release_date": "2015-12-19",
+          "eol": "2017-11-01"
+        },
+        {
+          "cycle": "3.2",
+          "latest": "3.2.3",
+          "lts": false,
+          "release_date": "2015-05-26",
+          "eol": "2017-05-01"
+        },
+        {
+          "cycle": "3.1",
+          "latest": "3.1.4",
+          "lts": false,
+          "release_date": "2014-12-10",
+          "eol": "2016-11-01"
+        },
+        {
+          "cycle": "3.0",
+          "latest": "3.0.6",
+          "lts": false,
+          "release_date": "2014-06-04",
+          "eol": "2016-05-01"
+        },
+        {
+          "cycle": "2.7",
+          "latest": "2.7.9",
+          "lts": false,
+          "release_date": "2011-01-06",
+          "eol": "2015-11-01"
+        },
+        {
+          "cycle": "2.6",
+          "latest": "2.6.8",
+          "lts": false,
+          "release_date": "2010-12-15",
+          "eol": "2015-05-01"
+        },
+        {
+          "cycle": "2.5",
+          "latest": "2.5.4",
+          "lts": false,
+          "release_date": "2010-08-12",
+          "eol": "2014-11-01"
+        },
+        {
+          "cycle": "2.4",
+          "latest": "2.4.11",
+          "lts": false,
+          "release_date": "2010-07-07",
+          "eol": "2014-05-01"
+        },
+        {
+          "cycle": "2.3",
+          "latest": "2.3.6",
+          "lts": false,
+          "release_date": "2010-05-19",
+          "eol": "2013-11-01"
+        },
+        {
+          "cycle": "2.2",
+          "latest": "2.2.5",
+          "lts": false,
+          "release_date": "2010-05-04",
+          "eol": "2013-05-01"
+        },
+        {
+          "cycle": "2.1",
+          "latest": "2.1.6",
+          "lts": false,
+          "release_date": "2009-12-30",
+          "eol": "2012-11-01"
+        }
+      ]
+    },
+    {
+      "name": "NixOS",
+      "slug": "nixos",
+      "resolver": "nixos",
+      "url_template": null,
+      "page_url": null,
+      "arch": [
+        "x86_64",
+        "aarch64"
+      ],
+      "cycles": [
+        {
+          "cycle": "26.05",
+          "latest": null,
+          "lts": false,
+          "release_date": "2026-05-30",
+          "eol": "2026-12-31"
+        },
+        {
+          "cycle": "25.11",
+          "latest": null,
+          "lts": false,
+          "release_date": "2025-11-30",
+          "eol": "2026-06-30"
+        },
+        {
+          "cycle": "25.05",
+          "latest": null,
+          "lts": false,
+          "release_date": "2025-05-23",
+          "eol": "2025-12-31"
+        },
+        {
+          "cycle": "24.11",
+          "latest": null,
+          "lts": false,
+          "release_date": "2024-11-30",
+          "eol": "2025-06-30"
+        },
+        {
+          "cycle": "24.05",
+          "latest": null,
+          "lts": false,
+          "release_date": "2024-05-31",
+          "eol": "2024-12-31"
+        },
+        {
+          "cycle": "23.11",
+          "latest": null,
+          "lts": false,
+          "release_date": "2023-11-29",
+          "eol": "2024-06-30"
+        },
+        {
+          "cycle": "23.05",
+          "latest": null,
+          "lts": false,
+          "release_date": "2023-05-31",
+          "eol": "2023-12-31"
+        },
+        {
+          "cycle": "22.11",
+          "latest": null,
+          "lts": false,
+          "release_date": "2022-11-30",
+          "eol": "2023-06-30"
+        },
+        {
+          "cycle": "22.05",
+          "latest": null,
+          "lts": false,
+          "release_date": "2022-05-30",
+          "eol": "2022-12-31"
+        },
+        {
+          "cycle": "21.11",
+          "latest": null,
+          "lts": false,
+          "release_date": "2021-11-30",
+          "eol": "2022-06-30"
+        },
+        {
+          "cycle": "21.05",
+          "latest": null,
+          "lts": false,
+          "release_date": "2021-05-31",
+          "eol": "2021-12-31"
+        },
+        {
+          "cycle": "20.09",
+          "latest": null,
+          "lts": false,
+          "release_date": "2020-10-27",
+          "eol": "2021-06-30"
+        },
+        {
+          "cycle": "20.03",
+          "latest": null,
+          "lts": false,
+          "release_date": "2020-04-20",
+          "eol": "2020-10-30"
+        },
+        {
+          "cycle": "19.09",
+          "latest": null,
+          "lts": false,
+          "release_date": "2019-10-09",
+          "eol": "2020-04-30"
+        },
+        {
+          "cycle": "19.03",
+          "latest": null,
+          "lts": false,
+          "release_date": "2019-04-11",
+          "eol": "2019-10-30"
+        },
+        {
+          "cycle": "18.09",
+          "latest": null,
+          "lts": false,
+          "release_date": "2018-10-05",
+          "eol": "2019-04-30"
+        },
+        {
+          "cycle": "18.03",
+          "latest": null,
+          "lts": false,
+          "release_date": "2018-04-04",
+          "eol": "2018-10-30"
+        },
+        {
+          "cycle": "17.09",
+          "latest": null,
+          "lts": false,
+          "release_date": "2017-09-29",
+          "eol": "2018-04-30"
+        },
+        {
+          "cycle": "17.03",
+          "latest": null,
+          "lts": false,
+          "release_date": "2017-03-31",
+          "eol": "2017-10-30"
+        },
+        {
+          "cycle": "16.09",
+          "latest": null,
+          "lts": false,
+          "release_date": "2016-09-30",
+          "eol": "2017-04-30"
+        },
+        {
+          "cycle": "16.03",
+          "latest": null,
+          "lts": false,
+          "release_date": "2016-03-31",
+          "eol": "2016-10-30"
+        },
+        {
+          "cycle": "15.09",
+          "latest": null,
+          "lts": false,
+          "release_date": "2015-09-30",
+          "eol": "2016-04-30"
+        },
+        {
+          "cycle": "14.12",
+          "latest": null,
+          "lts": false,
+          "release_date": "2014-12-30",
+          "eol": "2015-09-30"
+        },
+        {
+          "cycle": "14.04",
+          "latest": null,
+          "lts": false,
+          "release_date": "2014-04-30",
+          "eol": "2015-01-31"
+        },
+        {
+          "cycle": "13.10",
+          "latest": null,
+          "lts": false,
+          "release_date": "2013-10-31",
+          "eol": "2014-05-31"
+        }
+      ]
+    },
+    {
+      "name": "Proxmox VE",
+      "slug": "proxmox-ve",
+      "resolver": "proxmox",
+      "url_template": null,
+      "page_url": null,
+      "arch": [
+        "x86_64"
+      ],
+      "cycles": [
+        {
+          "cycle": "9",
+          "latest": "9.2",
+          "lts": false,
+          "release_date": "2025-08-05",
+          "eol": null
+        },
+        {
+          "cycle": "8",
+          "latest": "8.4",
+          "lts": false,
+          "release_date": "2023-06-22",
+          "eol": "2026-08-31"
+        },
+        {
+          "cycle": "7",
+          "latest": "7.4",
+          "lts": false,
+          "release_date": "2021-07-06",
+          "eol": "2024-07-31"
+        },
+        {
+          "cycle": "6",
+          "latest": "6.4",
+          "lts": false,
+          "release_date": "2019-07-16",
+          "eol": "2022-09-30"
+        },
+        {
+          "cycle": "5",
+          "latest": "5.4",
+          "lts": false,
+          "release_date": "2017-07-04",
+          "eol": "2020-07-31"
+        },
+        {
+          "cycle": "4",
+          "latest": "4.4",
+          "lts": false,
+          "release_date": "2015-10-06",
+          "eol": "2018-06-30"
+        },
+        {
+          "cycle": "3",
+          "latest": "3.4",
+          "lts": false,
+          "release_date": "2013-05-24",
+          "eol": "2017-02-28"
+        },
+        {
+          "cycle": "2",
+          "latest": "2.3",
+          "lts": false,
+          "release_date": "2012-03-30",
+          "eol": "2014-05-31"
+        },
+        {
+          "cycle": "1",
+          "latest": "1.9",
+          "lts": false,
+          "release_date": "2011-09-13",
+          "eol": "2013-01-31"
+        }
+      ]
+    },
+    {
+      "name": "KDE Plasma",
+      "slug": "kde-plasma",
+      "resolver": "release-page",
+      "url_template": null,
+      "page_url": "https://kde.org/plasma-desktop/",
+      "arch": [
+        "x86_64"
+      ],
+      "cycles": [
+        {
+          "cycle": "6.7",
+          "latest": "6.7.4",
+          "lts": false,
+          "release_date": "2026-06-16",
+          "eol": null
+        },
+        {
+          "cycle": "6.6",
+          "latest": "6.6.6",
+          "lts": false,
+          "release_date": "2026-02-17",
+          "eol": "2026-06-16"
+        },
+        {
+          "cycle": "6.5",
+          "latest": "6.5.6",
+          "lts": false,
+          "release_date": "2025-10-21",
+          "eol": "2026-02-17"
+        },
+        {
+          "cycle": "6.4",
+          "latest": "6.4.6",
+          "lts": false,
+          "release_date": "2025-06-17",
+          "eol": "2025-10-21"
+        },
+        {
+          "cycle": "6.3",
+          "latest": "6.3.6",
+          "lts": false,
+          "release_date": "2025-02-11",
+          "eol": "2025-06-17"
+        },
+        {
+          "cycle": "6.2",
+          "latest": "6.2.5",
+          "lts": false,
+          "release_date": "2024-10-08",
+          "eol": "2025-02-11"
+        },
+        {
+          "cycle": "6.1",
+          "latest": "6.1.5",
+          "lts": false,
+          "release_date": "2024-06-18",
+          "eol": "2024-10-08"
+        },
+        {
+          "cycle": "6.0",
+          "latest": "6.0.5",
+          "lts": false,
+          "release_date": "2024-02-28",
+          "eol": "2024-06-18"
+        },
+        {
+          "cycle": "5.27",
+          "latest": "5.27.12",
+          "lts": true,
+          "release_date": "2023-02-14",
+          "eol": "2025-01-06"
+        },
+        {
+          "cycle": "5.26",
+          "latest": "5.26.5",
+          "lts": false,
+          "release_date": "2022-10-11",
+          "eol": "2023-02-14"
+        },
+        {
+          "cycle": "5.25",
+          "latest": "5.25.5",
+          "lts": false,
+          "release_date": "2022-06-14",
+          "eol": "2022-10-11"
+        },
+        {
+          "cycle": "5.24",
+          "latest": "5.24.7",
+          "lts": true,
+          "release_date": "2022-02-08",
+          "eol": "2022-10-14"
+        },
+        {
+          "cycle": "5.23",
+          "latest": "5.23.5",
+          "lts": false,
+          "release_date": "2021-10-14",
+          "eol": "2022-02-03"
+        },
+        {
+          "cycle": "5.18",
+          "latest": "5.18.8",
+          "lts": true,
+          "release_date": "2020-02-11",
+          "eol": "2022-02-11"
+        }
+      ]
+    },
+    {
+      "name": "Arch Linux",
+      "slug": "archlinux",
+      "resolver": "release-page",
+      "url_template": null,
+      "page_url": "https://archlinux.org/releng/releases/",
+      "arch": [
+        "x86_64"
+      ],
+      "cycles": [
+        {
+          "cycle": "rolling",
+          "latest": "rolling",
+          "lts": false,
+          "release_date": "",
+          "eol": ""
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "name": "UEFI Shell",
+      "slug": "uefi-shell",
+      "repo": "pbatard/UEFI-Shell",
+      "url_template": "https://github.com/pbatard/UEFI-Shell/releases/download/{tag}/UEFI-Shell-2.2-{tag}-RELEASE.iso",
+      "arch": [
+        "x86_64",
+        "ia32",
+        "aa64"
+      ],
+      "cycles": [
+        {
+          "tag": "26H1",
+          "release": "edk2-stable202602"
+        },
+        {
+          "tag": "25H2",
+          "release": "edk2-stable202511"
+        },
+        {
+          "tag": "25H1",
+          "release": "edk2-stable202505"
+        },
+        {
+          "tag": "24H2",
+          "release": "edk2-stable202411"
+        },
+        {
+          "tag": "24H1",
+          "release": "edk2-stable202405"
+        },
+        {
+          "tag": "23H2",
+          "release": "edk2-stable202311"
+        }
+      ]
+    }
+  ]
+}

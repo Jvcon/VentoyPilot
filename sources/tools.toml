@@ -1,0 +1,27 @@
+# Utility / rescue tools. Versions are hand-maintained; the concrete asset
+# URL is built at download time from url_template.
+
+[[tool]]
+name = "UEFI Shell"
+slug = "uefi-shell"
+repo = "pbatard/UEFI-Shell"
+url_template = "https://github.com/pbatard/UEFI-Shell/releases/download/{tag}/UEFI-Shell-2.2-{tag}-RELEASE.iso"
+arch = ["x86_64", "ia32", "aa64"]
+[[tool.cycles]]
+tag = "26H1"
+release = "edk2-stable202602"
+[[tool.cycles]]
+tag = "25H2"
+release = "edk2-stable202511"
+[[tool.cycles]]
+tag = "25H1"
+release = "edk2-stable202505"
+[[tool.cycles]]
+tag = "24H2"
+release = "edk2-stable202411"
+[[tool.cycles]]
+tag = "24H1"
+release = "edk2-stable202405"
+[[tool.cycles]]
+tag = "23H2"
+release = "edk2-stable202311"

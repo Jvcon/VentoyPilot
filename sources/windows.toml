@@ -1,0 +1,38 @@
+# Windows version/release/edition table (Fido-style, hand-maintained).
+# No download links here — they are resolved live at download time.
+
+[[version]]
+name = "Windows 11"
+slug = "windows11"
+page_type = "windows11"
+
+[[version.releases]]
+release = "25H2 v2 (Build 26200.8037 - 2026.03)"
+[[version.releases.editions]]
+name = "Windows 11 Home/Pro/Edu"
+types = ["desktop"]
+product_edition_id = [3321, 3324]
+[[version.releases.editions]]
+name = "Windows 11 Home China"
+types = ["home-china"]
+product_edition_id = [3322, 3325]
+[[version.releases.editions]]
+name = "Windows 11 Pro China"
+types = ["pro-china"]
+product_edition_id = [3323, 3326]
+
+[[version]]
+name = "Windows 10"
+slug = "windows10"
+page_type = "Windows10ISO"
+
+[[version.releases]]
+release = "22H2 v1 (Build 19045.2965 - 2023.05)"
+[[version.releases.editions]]
+name = "Windows 10 Home/Pro/Edu"
+types = ["desktop"]
+product_edition_id = [2618]
+[[version.releases.editions]]
+name = "Windows 10 Home China"
+types = ["home-china"]
+product_edition_id = [2378]

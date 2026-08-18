@@ -1,0 +1,65 @@
+[package]
+name = "ventoypilot"
+version = "0.1.0"
+edition = "2021"
+authors = ["Jacques Yip <jayto118@gmail.com>"]
+description = "A rule-driven pipeline toolbox to manage assets for Ventoy/iVentoy."
+license = "MIT"
+
+[[bin]]
+name = "vpilot"
+path = "src/main.rs"
+
+[[bin]]
+name = "catalog-gen"
+path = "src/bin/catalog-gen.rs"
+
+[dependencies]
+# Async Runtime & Core Utilities
+tokio = { version = "1.35", features = ["full"] }
+futures-util = "0.3"
+
+# Network Stack (For fetching dynamic Microsoft/PE links)
+reqwest = { version = "0.12", default-features = false, features = ["json", "stream", "rustls-tls"] }
+url = "2.5"
+
+# Configuration Parsing
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+toml = "0.8"
+
+# Advanced CLI Argument Engine
+clap = { version = "4.4", features = ["derive"] }
+
+# Async traits for testable HTTP abstraction
+async-trait = "0.1"
+
+# Error handling
+thiserror = "1.0"
+
+# Paths (config dir)
+dirs = "5.0"
+
+# Cryptography (Streaming Hash verification)
+sha2 = "0.10"
+hex = "0.4"
+
+# Identifiers (Microsoft session ids)
+uuid = { version = "1", features = ["v4"] }
+
+# Scraping (Proxmox ISO page, ov-df tokens)
+regex = "1"
+
+# CLI Polish
+indicatif = { version = "0.17", features = ["tokio"] }
+
+[dev-dependencies]
+tempfile = "3"
+
+# Binary Size & Performance Optimizations
+[profile.release]
+opt-level = 'z'       # Optimize for binary size
+lto = true            # Enable Link-Time Optimization
+codegen-units = 1     # Maximize compiler optimization space
+panic = 'abort'       # Strip overhead for unwinding stacks
+strip = true          # Strip all symbols and debug info automatically

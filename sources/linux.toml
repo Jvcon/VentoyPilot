@@ -1,0 +1,61 @@
+# Linux distros tracked for version listing.
+# Versions (cycles) are pulled from endoflife.date by catalog-gen.
+# `manual_cycles` is a fallback for distros without an endoflife entry
+# (e.g. Arch Linux). Download links are resolved at download time.
+
+[[distro]]
+name = "Ubuntu"
+slug = "ubuntu"
+resolver = "template"
+url_template = "https://releases.ubuntu.com/{version}/ubuntu-{version}-desktop-{arch}.iso"
+arch = ["amd64", "arm64"]
+
+[[distro]]
+name = "Debian"
+slug = "debian"
+resolver = "template"
+url_template = "https://cdimage.debian.org/debian-cd/current/{arch}/iso-cd/debian-{version}-{arch}-netinst.iso"
+arch = ["amd64", "arm64"]
+
+[[distro]]
+name = "Fedora"
+slug = "fedora"
+resolver = "template"
+url_template = "https://download.fedoraproject.org/pub/fedora/linux/releases/{cycle}/Workstation/{arch}/iso/Fedora-Workstation-Live-{cycle}-{arch}.iso"
+arch = ["x86_64", "aarch64"]
+
+[[distro]]
+name = "Alpine Linux"
+slug = "alpine-linux"
+resolver = "template"
+url_template = "https://dl-cdn.alpinelinux.org/alpine/v{cycle}/releases/{arch}/alpine-{version}-{arch}.iso"
+arch = ["x86_64", "aarch64"]
+
+[[distro]]
+name = "NixOS"
+slug = "nixos"
+resolver = "nixos"
+arch = ["x86_64", "aarch64"]
+
+[[distro]]
+name = "Proxmox VE"
+slug = "proxmox-ve"
+resolver = "proxmox"
+arch = ["x86_64"]
+
+[[distro]]
+name = "KDE Plasma"
+slug = "kde-plasma"
+resolver = "release-page"
+page_url = "https://kde.org/plasma-desktop/"
+arch = ["x86_64"]
+
+[[distro]]
+name = "Arch Linux"
+slug = "archlinux"
+resolver = "release-page"
+page_url = "https://archlinux.org/releng/releases/"
+arch = ["x86_64"]
+manual_cycles = [
+  { cycle = "rolling", latest = "rolling", lts = false, release_date = "", eol = "" },
+]

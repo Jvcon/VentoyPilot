@@ -1,7 +1,7 @@
 {
   "name": "Ventoy Pilot Dev Environment",
-  "image": "://microsoft.com",
-  
+  "image": "mcr.microsoft.com/devcontainers/rust:dev-bookworm",
+
   // Features to add to the dev container. We need Docker-in-Docker for the 'cross' compilation tool.
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:2": {
@@ -11,7 +11,7 @@
   },
 
   // Use 'postCreateCommand' to install global cargo tools and rust targets after the container is created
-  "postCreateCommand": "cargo install cross --git https://github.com && rustup target add x86_64-pc-windows-gnu x86_64-unknown-linux-gnu",
+  "postCreateCommand": "cargo install cross --git https://github.com/cross-rs/cross && rustup target add x86_64-pc-windows-gnu x86_64-unknown-linux-gnu && curl -fsSL https://opencode.ai/install | bash",
 
   // Configure tool-specific properties.
   "customizations": {
@@ -19,13 +19,16 @@
       "extensions": [
         "rust-lang.rust-analyzer",
         "tamasfe.even-better-toml",
-        "serayuzgur.crates",
+        "fill-labs.dependi",
         "redhat.vscode-yaml",
         "vadimcn.vscode-lldb" // For debugging Rust code
       ],
       "settings": {
         "rust-analyzer.cargo.target": "x86_64-unknown-linux-gnu",
-        "rust-analyzer.check.command": "clippy"
+        "rust-analyzer.check.command": "clippy",
+        "terminal.integrated.env.linux": {
+          "PATH": "${env:PATH}:${userHome}/.opencode/bin"
+        }
       }
     }
   },
