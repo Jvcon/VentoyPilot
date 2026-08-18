@@ -1,0 +1,40 @@
+{
+  "name": "Ventoy Pilot Dev Environment",
+  "image": "://microsoft.com",
+  
+  // Features to add to the dev container. We need Docker-in-Docker for the 'cross' compilation tool.
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "version": "latest",
+      "enableNonRootDocker": "true"
+    }
+  },
+
+  // Use 'postCreateCommand' to install global cargo tools and rust targets after the container is created
+  "postCreateCommand": "cargo install cross --git https://github.com && rustup target add x86_64-pc-windows-gnu x86_64-unknown-linux-gnu",
+
+  // Configure tool-specific properties.
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "rust-lang.rust-analyzer",
+        "tamasfe.even-better-toml",
+        "serayuzgur.crates",
+        "redhat.vscode-yaml",
+        "vadimcn.vscode-lldb" // For debugging Rust code
+      ],
+      "settings": {
+        "rust-analyzer.cargo.target": "x86_64-unknown-linux-gnu",
+        "rust-analyzer.check.command": "clippy"
+      }
+    }
+  },
+
+  // Comment out to connect as root instead if your local prerequisites require it.
+  "remoteUser": "vscode",
+  
+  // Mount target directory to a named volume to speed up compilation performance significantly inside Docker
+  "mounts": [
+    "source=vman-cargo-cache,target=${containerWorkspaceFolder}/target,type=volume"
+  ]
+}
